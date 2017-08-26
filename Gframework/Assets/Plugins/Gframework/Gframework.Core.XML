@@ -4,5 +4,62 @@
         <name>Gframework.Core</name>
     </assembly>
     <members>
+        <member name="T:Gframework.Core.Interface.I18N">
+            <summary>
+            MultiLanguage Interface
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.I18N.SetLanguage(System.String)">
+            <summary>
+            Set Language
+            </summary>
+            <param name="languageKey"></param>
+        </member>
+        <member name="T:Gframework.Core.Interface.INodeCommand">
+            <summary>
+            Base Node Command
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.INodeCommand.Excute">
+            <summary>
+            Excute
+            </summary>
+        </member>
+        <member name="T:Gframework.Core.Interface.INodeSpeedControllable">
+            <summary>
+            Control Command Excute Speed
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.INodeSpeedControllable.ChangeSpeed(System.Single)">
+            <summary>
+            Change Command Speed
+            </summary>
+            <param name="speed"></param>
+        </member>
+        <member name="T:Gframework.Core.Interface.IUIScripts">
+            <summary>
+            UI Scripts Interface
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.IUIScripts.Show">
+            <summary>
+            Show
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.IUIScripts.Hide">
+            <summary>
+            Hide
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.IUIScripts.Clear">
+            <summary>
+            Clear
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.IUIScripts.Refresh">
+            <summary>
+            Refresh
+            </summary>
+        </member>
     </members>
 </doc>
