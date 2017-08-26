@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 namespace Gframework.Core.Interface
 {
     /// <summary>
-    /// Control Command Excute Speed
+    /// Node Command That Can Undo
     /// </summary>
-    public interface INodeSpeedControllable:INodeCommand,INodePauseable
+    public interface INodeUndo:INodeCommand
     {
         /// <summary>
-        /// Change Command Speed
+        /// Undo
         /// </summary>
-        /// <param name="speed"></param>
-        void ChangeSpeed(float speed);
+        void Undo();
     }
 }

@@ -1,12 +1,8 @@
 ﻿
 //ref :http://www.programering.com/a/MzM1UzNwATg.html
 
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using System;
 using System.Threading;
 using System.Linq;

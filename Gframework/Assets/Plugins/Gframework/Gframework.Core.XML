@@ -15,14 +15,44 @@
             </summary>
             <param name="languageKey"></param>
         </member>
+        <member name="T:Gframework.Core.Interface.IManager">
+            <summary>
+            Manager Interface
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.IManager.Initialize">
+            <summary>
+            Initialize
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.IManager.UnInitialize">
+            <summary>
+            UnInitialize
+            </summary>
+        </member>
         <member name="T:Gframework.Core.Interface.INodeCommand">
             <summary>
             Base Node Command
             </summary>
         </member>
-        <member name="M:Gframework.Core.Interface.INodeCommand.Excute">
+        <member name="M:Gframework.Core.Interface.INodeCommand.Do">
             <summary>
-            Excute
+            Excute Command
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.INodeCommand.Quit">
+            <summary>
+            Exit Command
+            </summary>
+        </member>
+        <member name="T:Gframework.Core.Interface.INodePauseable">
+            <summary>
+            Node Command That Can pause
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.INodePauseable.Pause">
+            <summary>
+            Pause
             </summary>
         </member>
         <member name="T:Gframework.Core.Interface.INodeSpeedControllable">
@@ -35,6 +65,16 @@
             Change Command Speed
             </summary>
             <param name="speed"></param>
+        </member>
+        <member name="T:Gframework.Core.Interface.INodeUndo">
+            <summary>
+            Node Command That Can Undo
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Interface.INodeUndo.Undo">
+            <summary>
+            Undo
+            </summary>
         </member>
         <member name="T:Gframework.Core.Interface.IUIScripts">
             <summary>
@@ -60,6 +100,26 @@
             <summary>
             Refresh
             </summary>
+        </member>
+        <member name="T:Gframework.Core.Util.JsonUtil">
+            <summary>
+            Json Serialization and Deserialize
+            </summary>
+        </member>
+        <member name="M:Gframework.Core.Util.JsonUtil.Serialize(System.Object)">
+            <summary>
+            Serialize
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Gframework.Core.Util.JsonUtil.Deserialize``1(System.String)">
+            <summary>
+            Deserialize
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="json"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>

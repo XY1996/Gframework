@@ -11,9 +11,15 @@ namespace Gframework.Core.Interface
     /// </summary>
     public interface INodeCommand
     {
+
         /// <summary>
-        /// Excute
+        /// Excute Command
         /// </summary>
-        void Excute();
+        void Do();
+        /// <summary>
+        /// Exit Command
+        /// </summary>
+        void Quit();
+
     }
 }

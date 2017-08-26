@@ -7,10 +7,7 @@ using UnityEngine;
 /// </summary>
 public class Singleton<T> where T: new()
 {
-    protected Singleton()
-    {
 
-    }
     private static readonly object _object = new object();
 
     private static T instance=default(T);

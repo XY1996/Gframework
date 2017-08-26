@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 namespace Gframework.Core.Interface
 {
     /// <summary>
-    /// Control Command Excute Speed
+    /// Node Command That Can pause
     /// </summary>
-    public interface INodeSpeedControllable:INodeCommand,INodePauseable
+    public interface INodePauseable
     {
         /// <summary>
-        /// Change Command Speed
+        /// Pause
         /// </summary>
-        /// <param name="speed"></param>
-        void ChangeSpeed(float speed);
+        void Pause();
     }
 }
